@@ -1,7 +1,6 @@
 #include "animal_world.h"
 #include "continent.h"
 #include <iostream>
-
 using namespace std;
 
 int main() {
