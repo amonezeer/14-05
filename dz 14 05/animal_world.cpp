@@ -8,6 +8,7 @@ void AnimalWorld::mealsHerbivores(Continent* continent) {
     delete herbivore;
 }
 
+
 void AnimalWorld::nutritionCarnivores(Continent* continent) {
     Carnivore* carnivore = continent->createCarnivore();
     Herbivore* herbivore = continent->createHerbivore();

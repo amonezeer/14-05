@@ -1,6 +1,7 @@
 #include "animal_world.h"
 #include "continent.h"
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -21,6 +22,7 @@ int main() {
     world.nutritionCarnivores(northAmerica);
     cout << "Feeding carnivores in Eurasia:\n";
     world.nutritionCarnivores(eurasia);
+
     delete africa;
     delete northAmerica;
     delete eurasia;

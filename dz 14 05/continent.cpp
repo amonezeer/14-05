@@ -1,5 +1,6 @@
 #include "continent.h"
 #include "animal.h"
+
 Herbivore* Africa::createHerbivore() {
     return new Wildebeest();
 }
